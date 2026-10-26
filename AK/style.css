@@ -6,7 +6,7 @@
 .header {
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgb(250, 249, 249), rgb(0, 255, 251)), url(Images/MARINE.PNG);
+    background-image: linear-gradient(rgb(250, 249, 249), rgb(0, 255, 251)), url(Images/SEA-HORSE.png);
     background-position: center;
     background-size: cover;
     position: relative;  
@@ -115,3 +115,23 @@ nav .fa{
         padding: 30px;
     }
 } 
+/*----- course -----*/
+.course{
+    width:80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    
+}
+h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+p{
+    color:white;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding:10px;
+    
+}
