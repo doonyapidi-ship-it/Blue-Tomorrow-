@@ -5,17 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blue Tomorrow - Welcome</title>
     <link rel="stylesheet" href="style.css">
-</head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 <body> 
     <div class="header">
-        <nav>
+        <nav id="navbar">
             <img src="images/logo.png" class="logo">
             <ul class="nav-links">
-                <li><a href="#">Popular Places.</a></li>
+                <li><a href="#" class="active">Popular Places.</a></li>
                 <li><a href="#">Travel Outside.</a></li>
                 <li><a href="#">Online Packages.</a></li>
             </ul>
             <a href="#" class="register-btn">Register Now.</a>
+            <i class="fa-solid fa-bars" onclick="togglebtn()"></i>
         </nav>
         <div class="container">
             <h1>Find your next adventure.</h1>
@@ -110,20 +111,41 @@
             <a href="#" class="cta-btn">Know More</a>
         </div>
         <h2 class="sub-title">Ocean Cleaning Stories</h2>
-        <div class="stories">
+    <div class="stories">
+        <div>
             <img src="images/story1.png" height="350px" width="350px">
             <p>Popular Lakes and Oceans with a budget of just 300,000 KSH.</p>
         </div>
-        <div class="stories">
+        <div>
             <img src="images/story2.png" height="350px" width="350px">
             <p>Cleaned more than 100 Lakes and Oceans in less than a year.</p>
         </div>
-        <div class="stories">
+        <div>
             <img src="images/story3.png" height="350px" width="350px">
             <p>Best experience you get while traveling to the Lakes and Oceans.</p>
         </div>
     </div>
+        <a href="#" class="start-btn">Start Saving Marine Life</a>
+        <div class="about-msg">
+            <h2>About Blue Tomorrow</h2>
+            <p> Welcome to Blue Tomorrow! 🌊
 
+Blue Tomorrow is a website dedicated to raising awareness about marine life conservation and protecting our oceans. Our goal is to educate people about the importance of marine ecosystems and the threats they face, such as plastic pollution, overfishing, climate change, and habitat destruction.
+
+Through our website, we aim to inspire people to take action by reducing plastic waste, protecting endangered marine animals, participating in beach cleanups, and spreading awareness about ocean conservation.
+
+We believe that even the smallest actions can create a big difference. By working together, we can protect marine life, restore our oceans, and ensure that future generations get to experience the beauty of underwater ecosystems.
+
+Blue Tomorrow A brighter future starts with a healthier ocean. 🐬</p>
+        </div>
+        
+    </div>
+<script>
+    var navbar = document.getElementById("navbar");
+    function togglebtn(){
+        navbar.classList.toggle("hidemenu");
+    }
+</script>
 
 </body>
 </html>
