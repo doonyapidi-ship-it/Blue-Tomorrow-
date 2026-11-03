@@ -3,18 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blue Tomorrow| sea awareness</title>
+    <title>Blue Tomorrow| Sea awareness</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.2.0/css/fontawesome.min.css">
 </head>
 <body>
      <section class="header">
         <nav>
-            <a href="index.html"></a><img src="Images/logo.png"></a>
-            <a  href="index.html"></a><img src="Images/SEA-HORSE.png" style="border-radius: 70%;"></a>
-            <div class="nav-links">
+            <a href="index.html" class="logo-"></a><img src="Images/logo.png"></a>
+            <a  href="index.html"></a><img src="Images/SEA-HORSE.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
                     <ul>
                         <li><a href=""></a>HOME</li>
                         <li><a href=""></a>ABOUT</li>
@@ -22,16 +24,146 @@
                         <li><a href=""></a>CONTACT</li>
                     </ul>
             </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
         </nav>
 
     <div class="text-box">
-        <h1>save the ocean make it blue again!</h1>
-        <p>Water pollution is ruining our oceans and endangering our sea-life, but with your help our oceans will be safe and our oceans will clean and blue again </p>
-        <a href="">Help our cause
-        </a>
+        <h1>Save the ocean make it blue again</h1>
+        <p>Water pollution is ruining our oceans and endangering our sea life,<br> but with your help our oceans will be safe and our oceans will clean and blue again </p>
+        <a href="" class="hero-btn">Help the ocean and its animals.</a>
     </div>
 
 
      </section>
+     <!------course------>
+     <section class="course">
+        <h1>Our guides</h1>
+        <p>We have a variety of guides to help you learn about the ocean and its animals</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Ocean Pollution</h3>
+                <p>Learn about the different types of pollution that are affecting our oceans and what you can do to help.</p>
+            </div>
+            <div class="course-col">
+                <h3>Sea Animals</h3>
+                <p>Learn about the different types of sea animals and how they are affected by pollution.</p>
+            </div>
+            <div class="course-col">
+                <h3>Save the Ocean</h3>
+                <p>Learn about the different ways you can help save the ocean and its animals.</p>
+            </div>
+        </div>
+
+     </section>
+ <!------ campus ------>
+     <section class="campus">
+     </h1>Our Community</h1>
+       <p>Our community is dedicated to protecting the ocean and its wildlife</p>
+        <div class="row">
+            <div class="marine-life col">
+                <img src="Images/hawaiian monk seal.webp">
+                <div class="layer">
+                    <h3>Hawaiian Monk Seal</h3>
+                </div>
+            </div>
+              <div class="marine-life col">
+                <img src="Images/vaquita.webp">
+                <div class="layer">
+                    <h3>Vaquita</h3>
+                </div>
+            </div>
+            <div class="marine-life col">
+                <img src="Images/whale shark.webp">
+                <div class="layer">
+                    <h3>Whale Shark</h3>
+                </div>
+            </div>
+     
+
+     </section>
+<!----- Facilities ------>
+     <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>We have a variety of facilities to help you learn about the ocean and its secrets</p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="Images/Dolphin.jfif">
+                <h3>Sea Turtle</h3>
+                <p>Learn about the different types of sea turtles and how they are affected by pollution.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="Images/Shark.jfif">
+                <h3>Shark</h3>
+                <p>Learn about the different types of sharks and how they are affected by pollution.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="Images/Blue whale.jfif">
+                <h3>Blue Whale</h3>
+                <p>Learn about the different types of blue whales and how they are affected by pollution.</p>
+            </div>
+     </section>
+      <!----- testimonials ------>
+      <section class="testimonials">
+        <h1>What our visitors say</h1>
+        <p>Our visitors are very happy with our guides and facilities</p>
+        <div class="row">
+            <div class="testimonials-col">
+                <img src="Images/user1.png">
+                <div>
+                    <p>"I learned so much about the ocean and its animals. The guides were very knowledgeable and the facilities were great."</p>
+                    <h3>John Doe</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+            </div>
+            <div class="testimonials-col">
+                <img src="Images/user2.png">
+                <div>
+                    <p>"I had a great time learning about the ocean and its animals. The guides were very helpful and the facilities were great."</p>
+                    <h3>Jane Doe</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+            </div>
+
+        </div>
+
+      </section>
+      <!------- call to action ------>
+      <section class="cta">
+        <h1>Enroll for our guides and learn about the ocean</h1>
+        <a href="" class="hero-btn">Enroll Now</a>
+        </section>
+ <!------ Footer------>
+      <section class="footer">
+        <h4>About Us</h4>
+        <p>We are a community dedicated to protecting the ocean and its wildlife.<br>We have a variety of guides and facilities to help you learn about the ocean and its secrets.</p>
+        <div class="icons">
+            <i class="fa fa-facebook-official"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> by Blue Tomorrow</p>
+      </section>
+
+ 
+     <!-----Javascript for toggle menu------>
+     <script>
+        var navLinks = document.getElementById("navLinks");
+        function showmenu(){
+            navLinks.style.right = "0";
+        }
+        function hidemenu(){
+            navLinks.style.right = "-200px";
+        }
+      </script>
 </body>
 </html>

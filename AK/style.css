@@ -6,7 +6,7 @@
 .header {   
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgb(250, 249, 249), rgb(0, 255, 251)), url(Images/SEA-HORSE.png);
+    background-image: linear-gradient(rgb(0, 88, 132), rgb(0, 255, 251)), url(Images/SEA-HORSE.png);
     background-position: center;
     background-size: cover;
     position: relative;  
@@ -23,7 +23,6 @@ nav img{
 .nav-links{
     display: flex;
     text-align: right;
-
 }
 .nav-links ul li{
     list-style: none;
@@ -40,11 +39,10 @@ nav img{
     content:'';
     width:0%;
     height:2px;
-    background:#36f1f4;
+    background:#01ffea;
     display: block;
     margin: auto;
     transition: 0.4s;
-    
 }
 .nav-links ul li:hover::after{
     width:100%;
@@ -60,7 +58,7 @@ nav img{
     text-align: center;
 }
 .text-box h1{
-    font-size: 62px;
+    font-size: 60px;
 }
 .text-box p{
     margin: 10px 0 40px;
@@ -80,7 +78,7 @@ nav img{
 }
 .hero-btn:hover{
     border: 1px solid #36f1f4;
-    background: #002d82;
+    background: #3d7cf2;
     transition: 1s;
 }
 nav .fa{
@@ -128,7 +126,7 @@ h1{
     font-weight: 600;
 }
 p{
-    color:white;
+    color:rgb(16, 16, 16);
     font-size: 14px;
     font-weight: 300;
     line-height: 22px;
@@ -142,7 +140,7 @@ p{
 }
 .course-col{
     flex-basis:31%;
-    background:#002d82;
+    background:hsl(188, 100%, 84%);
     padding:20px 12px;
     border-radius:10px;
     margin-bottom:5%;
@@ -155,7 +153,7 @@ h3{
    margin:10px 0;
 }
 .course-col:hover{
-    box-shadow: 0 0 20px 0 #00595a;
+    box-shadow: 0 0 20px 0 #000000;
 }
 @media(max-width:700px){
     .row{
@@ -179,7 +177,8 @@ h3{
 }
 .marine-life col img{
     width:100%;
-    border-radius:10px;
+    display:block;
+
 
 }
 .layer{
@@ -201,7 +200,7 @@ h3{
     font-size:26px;
     bottom:0;
     left:50%;
-    transform:translate(-50%);
+    transform:translateX(-50%);
     position:absolute;
     opacity:0;
     transition:0.5s;
@@ -219,7 +218,7 @@ h3{
 }
 .facilities-col{
     flex-basis:31%;
-    background:#002d82;
+    background:white;
     border-radius:10px;
     margin-bottom:5%;
     text-align:left;
@@ -242,12 +241,12 @@ h3{
     margin:auto;
     text-align:center;
 }
-testimonials-col{
+.testimonials-col{  
     flex-basis:44%;
     border-radius:10px;
     margin-bottom:5%;
     text-align:left;
-    background:#03ffe2;
+    background:#bef2ff;
     padding:25px;
     cursor:pointer;
     display:flex;
@@ -266,7 +265,7 @@ testimonials-col{
     text-align:left;
 }
 .testimonials-col .fa{
-    color:#36f1f4;
+    color:#0a6d81;
 }
 @media(max-width:700px){
     .testimonials-col img{
@@ -278,9 +277,10 @@ testimonials-col{
 .cta{
     margin:100px auto;
     width:80%;
-    background-image: linear-gradient(rgb(250, 249, 249), rgb(0, 255, 251)), url(Images/TURTLE.png);
+    background-image: linear-gradient(rgb(250, 249, 249), rgb(0, 255, 251)), url(Images/Turtle.jfif);
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
     border-radius:10px;
     text-align: center;
     padding:100px 0;
