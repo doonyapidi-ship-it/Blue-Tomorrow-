@@ -8,15 +8,21 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 <body> 
     <div class="header">
-        <nav id="navbar">
-            <img src="images/logo.png" class="logo">
-            <ul class="nav-links">
-                <li><a href="#" class="active">Popular Places.</a></li>
-                <li><a href="#">Travel Outside.</a></li>
-                <li><a href="#">Online Packages.</a></li>
-            </ul>
-            <a href="#" class="register-btn">Register Now.</a>
-            <i class="fa-solid fa-bars" onclick="togglebtn()"></i>
+        <nav>
+            <a href="index.html" class="logo">
+                <img src="Images/logo.png" alt="Blue Tomorrow Logo" class="logo">
+            </a>
+            <div class="nav-links" id="navLinks">
+
+                <i class="fa-solid fa-xmark" onclick="hidemenu()"></i>
+
+                <ul>
+                    <li><a href="/index.html">HOME</a></li>
+                    <li><a href="/D&L/travel.html">TRAVEL</a></li>
+                    <li><a href="/E & E/Engine.html">IMAGE SEARCH</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showmenu()"></i>
         </nav>
         <div class="container">
             <h1>Find the animal you want to see.</h1>
