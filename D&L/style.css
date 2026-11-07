@@ -194,9 +194,6 @@ nav img {
 .stories div img{
     width: 100%;
     border-radius: 10px;
-<<<<<<< HEAD
-    height: 90%
-=======
 }
 .stories div{
     position: relative;
@@ -351,5 +348,4 @@ nav .fa-bars{
     .about-msg{
         font-size: 15px;
     }
->>>>>>> 4b75b38e9916a9441ff5b18a2471e9fc1c599fdd
 }

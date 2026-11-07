@@ -1,51 +1,50 @@
-const accessKey="k-Oc5htl_VbSrVJOhMQi21q7eDmm0kKaN-bCuGFdBAY";
+async function sendMessage(){
 
-const searchForm = document.getElementById("search-form");
-const searchBox = document.getElementById("search-box");
-const searchResult = document.getElementById("search-result");
-const showMoreBtn = document.getElementById("show-more-btn");
+    let input = document.getElementById("userInput");
+    let message = input.value;
 
-
-let keyword = "";
-let page = 1;
-
-async function searchImages() {
-  keyword = searchBox.value;
-  const url = `https://api.unsplash.com/search/photos?page=${page}&query=${keyword}&client_id=${accessKey}&per_page=12`;
-
-    const response = await fetch(url);
-    const data = await response.json();
-
-    if(page == 1){
-      searchResult.innerHTML = "";
+    if(message === ""){
+        return;
     }
 
- const result = data.result;
+    let chatBox = document.getElementById("chatBox");
 
- result.map((result) =>{
-      const image = document.createElement("img");
-      image.src = result.urls.small;
-      const imageLink = document.createElement("a");
-      imageLink.href = result.link.html;
-      imageLink.target = "_blank";
+    // USER MESSAGE
+    let userMessage = document.createElement("div");
+    userMessage.classList.add("user-message");
+    userMessage.innerText = message;
 
-      imageLink.appendChild(image);
-      searchResult.appendChild(imageLink);
-      
-    
- })
- showMoreBtn.style.display = "block"
+    chatBox.appendChild(userMessage);
+
+    // BOT MESSAGE
+    let botMessage = document.createElement("div");
+    botMessage.classList.add("bot-message");
+    botMessage.innerText = "Searching...";
+
+    chatBox.appendChild(botMessage);
+
+    input.value = "";
+
+    try{
+
+        let response = await fetch(
+            "https://en.wikipedia.org/api/rest_v1/page/summary/" +
+            encodeURIComponent(message)
+        );
+
+        let data = await response.json();
+
+        if(data.extract){
+            botMessage.innerText = data.extract;
+        }
+        else{
+            botMessage.innerText = "I could not find anything.";
+        }
+
+    }
+    catch(error){
+        botMessage.innerText = "Error searching the internet.";
+    }
+
+    chatBox.scrollTop = chatBox.scrollHeight;
 }
-
-searchForm.addEventListener("submit" , (e) =>{ 
-    e.preventDefault();
-    page = 1;
-    searchImages();
-});
-
-
-showMoreBtn.addEventListener("click" ,()=>{
-   page++;
-   searchImage();
-
-})

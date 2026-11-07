@@ -3,33 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Image Search Engine</title>
+    <title>Halo AI</title>
+
+     <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="Engine.css">
 </head>
+
+<div class="header">
+
 <body>
-    <nav>
-            <a href="index.html" class="logo">
-                <img src="Images/logo.png" alt="Blue Tomorrow Logo" class="logo">
-            </a>
-            <div class="nav-links" id="navLinks">
 
-                <i class="fa-solid fa-xmark" onclick="hidemenu()"></i>
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="logo">Scientific Discoveries</div>
 
-                <ul>
+        <ul class="nav-links">
                     <li><a href="/index.html">HOME</a></li>
                     <li><a href="/D&L/travel.html">TRAVEL</a></li>
                     <li><a href="/E & E/Engine.html">IMAGE SEARCH</a></li>
-                </ul>
+        </ul>
+    </nav>
+
+    <!-- CHAT -->
+    <div class="chat-container">
+
+        <h1>Halo AI</h1>
+
+        <div class="chat-box" id="chatBox">
+            <div class="bot-message">
+                Hello! I'm Halo AI.
             </div>
-            <i class="fa-solid fa-bars" onclick="showmenu()"></i>
-        </nav>
-<h1>image search engine</h1>   
-<form id="search-form">
-    <input type="text" id="search-input" placeholder="Search for anything here...">
-    <button>Search</button>
-</form>
- <div id="search-results"></div>
-<button id="show-more-btn">Show More</button>
+        </div>
+
+        <div class="input-area">
+            <input type="text" id="userInput" placeholder="Type a message...">
+            <button onclick="sendMessage()">Send</button>
+        </div>
+
+    </div>
+</div>
+
 <script src="Script.js"></script>
+
 </body>
 </html>
