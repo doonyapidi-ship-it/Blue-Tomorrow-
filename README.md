@@ -1,6 +1,6 @@
-# 🌊 BlueGuard — Save Our Seas, One Action at a Time
+# 🌊 Blue Tommorrow — Save Our Seas, One Action at a Time
 
-**BlueGuard** is a marine conservation website designed to raise awareness about ocean pollution and inspire people to protect marine life. It encourages individuals, students, and communities to take action through beach cleanups, plastic reduction challenges, and other environmental activities.
+**Blue Tommorrow** is a marine conservation website designed to raise awareness about ocean pollution and inspire people to protect marine life. It encourages individuals, students, and communities to take action through beach cleanups, plastic reduction challenges, and other environmental activities.
 
 Our mission is to turn small actions into a big wave of change for our oceans. 🐢
 
@@ -14,11 +14,11 @@ Marine life faces many threats, including:
 
 ## 💡 Our Solution
 
-BlueGuard makes marine conservation engaging, educational, and actionable. Our platform helps people learn about marine life, participate in environmental challenges, and track their contributions to protecting the ocean.
+Blue Tommorrow makes marine conservation engaging, educational, and actionable. Our platform helps people learn about marine life, participate in environmental challenges, and track their contributions to protecting the ocean.
 
 ### ✨ Key Features
 
-- **🏠 Interactive Homepage:** Introduces BlueGuard and encourages visitors to take action.
+- **🏠 Interactive Homepage:** Introduces Blue Tommorrow and encourages visitors to take action.
 - **🐬 Discover Marine Life:** Learn about sea turtles, dolphins, whales, coral reefs, and other marine species.
 - **♻️ Ocean Rescue Missions:** Explore challenges such as collecting litter, reducing single-use plastics, and organising cleanups.
 - **📊 Impact Dashboard:** Display environmental contributions, including waste collected, cleanup activities, and volunteers involved.
@@ -61,7 +61,7 @@ If your project uses a backend, database, or build tools, follow the additional 
 ## 🗂️ Project Structure
 
 ```text
-BlueGuard/
+Blue Tommorrow/
 ├── index.html
 ├── css/
 │   └── style.css
@@ -76,11 +76,11 @@ BlueGuard/
 
 ## 🌱 How It Helps the Environment
 
-BlueGuard connects learning with practical action. By encouraging people to participate in cleanups, reduce plastic waste, and share environmental knowledge, the project aims to help communities make more sustainable choices.
+Blue Tommorrow connects learning with practical action. By encouraging people to participate in cleanups, reduce plastic waste, and share environmental knowledge, the project aims to help communities make more sustainable choices.
 
 Our long-term vision is to build a community that works together to protect marine animals, preserve ocean habitats, and reduce pollution.
 
-## 👥 Who Can Use BlueGuard?
+## 👥 Who Can Use Blue Tommorrow?
 
 - Students and schools.
 - Environmental clubs.
@@ -99,7 +99,7 @@ Our long-term vision is to build a community that works together to protect mari
 
 ## 🏆 Our Vision
 
-We believe that everyone can make a difference. BlueGuard empowers people to take meaningful steps toward cleaner oceans and a healthier planet.
+We believe that everyone can make a difference. Blue Tommorrow empowers people to take meaningful steps toward cleaner oceans and a healthier planet.
 
 **Every piece of litter collected, every plastic item avoided, and every person inspired brings us one step closer to a safer ocean.**
 
