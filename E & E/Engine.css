@@ -40,7 +40,7 @@ body{
     width: 100%;
 
     background: rgb(0, 255, 255);
-    border-bottom: 4px solid rgb(247, 245, 245);
+    border-bottom: 4px solid rgb(0, 255, 255);
 
     display: flex;
     justify-content: space-between;
@@ -55,7 +55,7 @@ body{
     content: '';
     width: 0%;
     height: 2px;
-    background: #01ffea;
+    background: #fff;
     display: block;
     margin: auto;
     transition: 0.4s;
